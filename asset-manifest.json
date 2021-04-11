@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/simple-calculator/static/css/main.fff52bb2.chunk.css",
+    "main.js": "/simple-calculator/static/js/main.e270ca99.chunk.js",
+    "main.js.map": "/simple-calculator/static/js/main.e270ca99.chunk.js.map",
+    "runtime-main.js": "/simple-calculator/static/js/runtime-main.6a5f256f.js",
+    "runtime-main.js.map": "/simple-calculator/static/js/runtime-main.6a5f256f.js.map",
+    "static/js/2.94e6da6a.chunk.js": "/simple-calculator/static/js/2.94e6da6a.chunk.js",
+    "static/js/2.94e6da6a.chunk.js.map": "/simple-calculator/static/js/2.94e6da6a.chunk.js.map",
+    "static/js/3.4d4b1de4.chunk.js": "/simple-calculator/static/js/3.4d4b1de4.chunk.js",
+    "static/js/3.4d4b1de4.chunk.js.map": "/simple-calculator/static/js/3.4d4b1de4.chunk.js.map",
+    "index.html": "/simple-calculator/index.html",
+    "static/css/main.fff52bb2.chunk.css.map": "/simple-calculator/static/css/main.fff52bb2.chunk.css.map",
+    "static/js/2.94e6da6a.chunk.js.LICENSE.txt": "/simple-calculator/static/js/2.94e6da6a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/simple-calculator/static/media/Hack-Regular.f2412cb7.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a5f256f.js",
+    "static/js/2.94e6da6a.chunk.js",
+    "static/css/main.fff52bb2.chunk.css",
+    "static/js/main.e270ca99.chunk.js"
+  ]
+}
