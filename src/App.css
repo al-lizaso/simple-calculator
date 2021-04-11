@@ -1,38 +1,97 @@
-.App {
+@font-face {
+  font-family: "Hack";
+  src: url("./fonts/Hack-Regular.ttf") format(tff);
+}
+
+* {
+  font-family: Hack, sans-serif;
+}
+.title {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin: 0.3em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  margin: 0.3em;
+  margin-bottom: 1.5em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.resultContainer {
+  background-color: #5c5c5c;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 5em;
+  border: solid black 3px;
+  border-bottom: none;
 }
 
-.App-link {
-  color: #61dafb;
+.result {
+  height: 75%;
+  background-color: #97baff;
+  width: 85%;
+  border: solid black 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.result p {
+  text-align: right;
+  padding-right: 0.4rem;
+  font-size: 30px;
+  margin: 5px;
+  overflow: auto;
+  padding-top: 0.5rem;
+}
+
+.calculator-body {
+  max-width: 45%;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  background-color: #bababa;
+  border: solid black 1px;
+}
+
+button {
+  background-color: #828282;
+  border: solid black 1px;
+  text-decoration: none;
+  width: 25%;
+  height: 25%;
+  font-size: 30px;
+}
+
+button:hover, button:focus {
+  background-color: #ababc2;
+}
+
+button:focus {
+  outline: 1px solid #000;
+}
+
+button:active {
+  outline: 1px solid #000;
+}
+
+.foot {
+  text-align: center;
+}
+
+h3 {
+  margin: 0.3em;
+  margin-top: 1.5em;
+}
+
+h4 {
+  margin: 0.3em;
+}
+
+h5, a {
+  margin: 0.3em;
+  text-decoration: #000 dashed 2px underline;
+  color: #3737ff;
 }
